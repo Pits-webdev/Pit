@@ -7,4 +7,5 @@ export default defineConfig({
     emptyOutDir: true,
     outDir: '../dist',
   },
+  base: '/Pit',
 });
