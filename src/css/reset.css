@@ -1,0 +1,125 @@
+:root {
+  /* Color */
+  --color_dark: #0f1217;
+  --color_light: #fff;
+  --color_gray: #b5b5b5;
+
+  /* Fonts */
+  --montserrat: 'Montserrat', sans-serif;
+  --syncopate: 'Syncopate', sans-serif;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./../assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('./../assets/fonts/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Syncopate;
+  src: url('./../assets/fonts/Syncopate-Regular.ttf');
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color_dark);
+  color: var(--color_light);
+  font-size: 1.6rem;
+  font-family: var(--montserrat);
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: var(--syncopate);
+  font-size: 3.2rem;
+  line-height: 1.2;
+}
+h2 {
+  font-family: var(--syncopate);
+  font-size: 2.8rem;
+  line-height: 1.2;
+}
+h3 {
+  font-family: var(--syncopate);
+  font-size: 2.2rem;
+  line-height: 1.2;
+}
+h4 {
+  font-family: var(--syncopate);
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color_light);
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.wrapper {
+  max-width: 134rem;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn {
+  background: rgb(99, 23, 73);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 23, 73, 1) 0%,
+    rgba(55, 81, 152, 1) 50%,
+    rgba(0, 157, 255, 1) 100%
+  );
+  padding: 1.2rem 3rem;
+  display: inline-block;
+  border-radius: 1rem;
+  font-weight: 700;
+}
+
+.line_hz {
+  display: inline-block;
+  width: 8rem;
+  height: 0.4rem;
+  background: rgb(99, 23, 73);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 23, 73, 1) 0%,
+    rgba(55, 81, 152, 1) 50%,
+    rgba(0, 157, 255, 1) 100%
+  );
+  margin-bottom: 1rem;
+}
